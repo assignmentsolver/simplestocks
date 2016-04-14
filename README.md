@@ -2,9 +2,10 @@
 
 ### Solution overview
 
-- Main API defined in the `com.assignmentsolver.stocks` package.
-- Simple implementation in the `com.assignmentsolver.stocks.simple` package.
-- Tests are provided for the simple implementation that cover the use cases defined in the requirements. All tests can
+- Main API defined in the [`main/com.assignmentsolver.stocks`](src/main/java/com/assignmentsolver/stocks) package.
+- Simple implementation in the [`main/com.assignmentsolver.stocks.simple`](src/main/java/com/assignmentsolver/stocks/simple) package.
+- Tests are provided for the simple implementation that cover the use cases defined in the requirements in the
+  [`test/com.assignmentsolver.stocks.simple`](src/test/java/com/assignmentsolver/stocks/simple) package. All tests can
   be run with the `mvn test` command.
 - No form of UI or service interface has been developed, however it would be easy to add this:
     - It could be exposed as a service with a REST API using Spring (`@RestController` and `@RequestMapping` etc).
